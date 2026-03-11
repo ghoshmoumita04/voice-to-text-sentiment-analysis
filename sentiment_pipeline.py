@@ -1,12 +1,4 @@
 """
-Contact Center Audio → Sentiment Analysis
-==========================================
-Dataset: PolyAI/minds14  (real customer service call audio, freely accessible)
-  - 563 en-US samples, banking/telecom/insurance intents
-  - Audio + transcripts + intent labels included
-  - No HuggingFace login required
-
-💡 To switch datasets, change ACTIVE_DATASET below.
 
 Pipeline:
   1. Load audio from HuggingFace dataset
